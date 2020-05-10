@@ -1,0 +1,32 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package pendahuluanandvancesorting;
+
+/**
+ *
+ * @author USER
+ */
+public class Shell_SortingApp {
+    public static void main(String[] args) {
+        int maxsize=100;
+        Shell_Sorting arr;
+        arr=new Shell_Sorting(maxsize);
+        
+        arr.insert(4);
+        arr.insert(2);
+        arr.insert(11);
+        arr.insert(15);
+        arr.insert(8);
+        arr.insert(5);
+        arr.insert(9);
+        arr.insert(3);
+        
+        arr.display();
+        arr.ShellSort();
+        //arr.display();
+    }
+    
+}
